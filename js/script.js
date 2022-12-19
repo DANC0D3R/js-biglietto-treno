@@ -9,13 +9,19 @@ let price = km * 0.21;
 
 // Controllo età utente (se minore di 18 anni o maggiore di 65 anni) e applica lo sconto appropriato
 if (age < 18) {
-    price = price * 0.8;
+
+    price = price * 0.8; /* applica il 20% di sconto*/
     console.log("Usufruisci del 20% di sconto")
+
 } else if (age >65){
-    price = price * 0.6;
+
+    price = price * 0.6; /* applica il 40% di sconto*/
     console.log("Usufruisci del 40% di sconto")
+
 } else{
+
     console.log("Non usufruisci di nessuno sconto")
+    
 }
 
 // Arrotonda il prezzo finale a due decimali
