@@ -41,4 +41,6 @@ if (isNaN(km) == true || isNaN(age) == true){
     // Mostra il prezzo finale
     console.log("Il prezzo del biglietto è: " + price + "€")
 
+    alert("Il prezzo del biglietto è: " + price + "€")
+
 }
