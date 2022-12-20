@@ -13,7 +13,7 @@ if (age < 18) {
     price = price * 0.8; /* applica il 20% di sconto*/
     console.log("Usufruisci del 20% di sconto")
 
-} else if (age >65){
+} else if (age > 65){
 
     price = price * 0.6; /* applica il 40% di sconto*/
     console.log("Usufruisci del 40% di sconto")
